@@ -24,7 +24,7 @@ PhishGuard solves this by implementing an **AI Agent Loop**:
 
 ---
 
-## 4. Technical Architecture (Session 5 Concepts)
+## 4. Technical Architecture 
 
 This project directly implements the theoretical concepts from Session 5:
 
