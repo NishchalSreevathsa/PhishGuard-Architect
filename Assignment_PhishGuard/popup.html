@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishGuard Architect</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for that "Code" look -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="shield-icon">🛡️</span> PhishGuard <span class="highlight">Architect</span></h1>
+            <div class="status-badge" id="agent-status">IDLE</div>
+        </header>
+
+        <div class="input-section">
+            <input type="text" id="target-url" placeholder="Enter suspicious URL..."
+                value="http://secure-login-update.com.verify-acct.net">
+            <button id="analyze-btn">ANALYZE THREAT</button>
+        </div>
+
+        <!-- AI PLANNING SECTION -->
+        <div class="panel planner-panel hidden" id="planner-panel">
+            <div class="panel-header">
+                <span class="icon">🗺️</span>
+                <h3>GOAL DECOMPOSITION (PLANNING)</h3>
+            </div>
+            <div class="panel-content" id="plan-list">
+                <!-- Plans injected here -->
+            </div>
+        </div>
+
+        <!-- REASONING (CoT) SECTION -->
+        <div class="panel reasoning-panel hidden" id="reasoning-panel">
+            <div class="panel-header">
+                <span class="icon">🧠</span>
+                <h3>CHAIN OF THOUGHT (REASONING)</h3>
+            </div>
+            <div class="panel-content terminal-text" id="reasoning-log">
+                <!-- Streamed thoughts -->
+            </div>
+        </div>
+
+        <!-- ReACT (ACTIONS) SECTION -->
+        <div class="panel react-panel hidden" id="react-panel">
+            <div class="panel-header">
+                <span class="icon">⚡</span>
+                <h3>AGENT ACTIONS (ReACT)</h3>
+            </div>
+            <div class="panel-content" id="action-log">
+                <!-- Tools execution -->
+            </div>
+        </div>
+
+        <!-- VERDICT -->
+        <div class="verdict-card hidden" id="verdict-card">
+            <h2>THREAT LEVEL: <span id="threat-level">ANALYZING...</span></h2>
+            <p id="verdict-reason">Please wait for agent execution...</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

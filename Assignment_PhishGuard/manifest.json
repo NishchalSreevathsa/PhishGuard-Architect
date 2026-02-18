@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "PhishGuard Architect - AI Safety Agent",
+    "version": "1.0",
+    "description": "A Cybersecurity Agent that demonstrates AI Planning and Reasoning (CoT, ReACT) to analyze threats.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "PhishGuard Agent"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
