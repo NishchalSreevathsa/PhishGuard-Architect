@@ -52,7 +52,7 @@ This project directly implements the theoretical concepts from Session 5:
 
 ---
 
-## 5. The "Qualified Prompt" (Assignment Requirement)
+## 5. The "Qualified Prompt" 
 
 This project was built based on the following **System Prompt**, designed to meet the criteria of "Explicit Reasoning", "Structured Output", and "Error Healing".
 
