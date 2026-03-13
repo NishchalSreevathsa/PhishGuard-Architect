@@ -5,8 +5,6 @@
 ## 1. Overview
 **PhishGuard Architect** is a browser extension that demonstrates **Agentic AI** principles (Planning, Reasoning, and Goal Decomposition) applied to cybersecurity. Instead of using simple keyword matching, it simulates a **Security Analyst** investigating a suspicious URL step-by-step.
 
-It showcases the concepts learned in **Session 5: Planning and Reasoning with Language Models**.
-
 ---
 
 ## 2. Current Industry Problem
